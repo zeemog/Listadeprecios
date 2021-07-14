@@ -2,19 +2,40 @@ body{
     font-family: 'Lato', sans-serif;
     margin: auto;
 }
-
 nav{
-    background-color: #00dac7;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    margin-bottom: 50px;
+    background: #00dac7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
     text-align: center;
-    width: 100%;
-    box-shadow: 0px 2px 20px rgb(139, 139, 139);
+    
 }
-nav h1{
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+
+}
+.logo{
+    /* margin-left: 5%; */
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.titulo{
     font-weight: 700;
     font-size: 48px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+.separador-titulo{
+    width: 60%;
+    margin-bottom: 30px;
 }
 h1{
     font-weight: 700;
